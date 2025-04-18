@@ -30,9 +30,9 @@ const NavBar = () => {
                     <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
                 </NavLink>
 
-                {/* External Link Added here */}
-                <a href="https://www.example-external-link.com" target="_blank" rel="noopener noreferrer" className='flex flex-col items-center gap-1'>
-                    <p>EXTERNAL LINK</p>
+                {/* External Link Added here: "Design Your Cloth" */}
+                <a href="https://pixelthreads-emgv.onrender.com" target="_blank" rel="noopener noreferrer" className='flex flex-col items-center gap-1'>
+                    <p>Design Your Cloth</p>
                     <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
                 </a>
             </ul>
@@ -75,8 +75,8 @@ const NavBar = () => {
                     <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/contact'>CONTACT</NavLink>
 
                     {/* External Link in Sidebar */}
-                    <a href="https://www.example-external-link.com" target="_blank" rel="noopener noreferrer" className='py-2 pl-6 border'>
-                        EXTERNAL LINK
+                    <a href="https://pixelthreads-emgv.onrender.com" target="_blank" rel="noopener noreferrer" className='py-2 pl-6 border'>
+                        Design Your Cloth
                     </a>
                 </div>
             </div>
